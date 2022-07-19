@@ -39,3 +39,20 @@ video{
    margin-bottom: 300px;
 
 }
+button{
+  cursor: pointer;
+  border: 1px solid #555;
+  text-align: center;
+  padding: 5px;
+  margin-left: 1400px;
+}
+.dark{
+  background-color: #222;
+  color: #e6e6e6;
+}
+iframe
+{
+  width: 610px;
+   height: 315px;
+  margin-right : 145px;
+}
