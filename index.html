@@ -11,9 +11,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
+
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
   <a class="navbar-brand" href="#"></a>
-  <a href="#" class="pull-left"><img src="innnerve-removebg-preview.png"></a>
+  <a href="#" class="pull-left"><img src="innnerve-removebg-preview.png" height="90" width="100"></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -27,7 +28,9 @@
       <li class="nav-item">
         <a class="nav-link active" href="about.html" style="color:white">About</a>
       </li>
-
+      <li class="nav-item">
+          <a class="nav-link" href="registration.html" style="color:white">Registration form</a>
+        </li>
 
     </ul>
 
@@ -40,7 +43,7 @@
         <div class="video-container">
             <div class="color-overlay"></div>
             <video autoplay loop muted>
-                <source src="video6.mp4" type="video/mp4">
+                <source src="video10.mp4" type="video/mp4">
             </video>
         </div>
 
@@ -53,6 +56,15 @@
     <div class="bg-dark p-3 " ><h3 style="color:goldenrod">Contact Us</h3><a href="gmail.com" class="link-light">sataakshi07@gmail.com</a><br>
       <a href="gmail.com" class="link-light"> +9810810232</a>
       <br>
+      <button onclick="myFunction()">Dark Mode</button>
+
+  <script>
+    function myFunction()
+    {
+    var element = document.body;
+    element.classList.toggle("dark");
+    }
+  </script>
       <br>
     </div>
   </footer>
